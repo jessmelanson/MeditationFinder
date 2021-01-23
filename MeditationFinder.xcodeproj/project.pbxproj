@@ -7,12 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1170E4D25BD2179009990F2 /* TopicsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1170E4C25BD2179009990F2 /* TopicsManager.swift */; };
+		B1170E4E25BD2179009990F2 /* TopicsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1170E4C25BD2179009990F2 /* TopicsManager.swift */; };
+		B1170E4F25BD2179009990F2 /* TopicsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1170E4C25BD2179009990F2 /* TopicsManager.swift */; };
+		B1170E5725BDF129009990F2 /* DisplayDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1170E5625BDF129009990F2 /* DisplayDataController.swift */; };
+		B1170E5825BDF129009990F2 /* DisplayDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1170E5625BDF129009990F2 /* DisplayDataController.swift */; };
+		B1170E5925BDF129009990F2 /* DisplayDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1170E5625BDF129009990F2 /* DisplayDataController.swift */; };
+		B1170E6725BDF2E5009990F2 /* TopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1170E6625BDF2E5009990F2 /* TopicView.swift */; };
+		B1170E6825BDF2E5009990F2 /* TopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1170E6625BDF2E5009990F2 /* TopicView.swift */; };
+		B1170E6925BDF2E5009990F2 /* TopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1170E6625BDF2E5009990F2 /* TopicView.swift */; };
+		B1170E6E25BE0D30009990F2 /* SubtopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1170E6D25BE0D30009990F2 /* SubtopicView.swift */; };
+		B1170E6F25BE0D30009990F2 /* SubtopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1170E6D25BE0D30009990F2 /* SubtopicView.swift */; };
+		B1170E7025BE0D30009990F2 /* SubtopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1170E6D25BE0D30009990F2 /* SubtopicView.swift */; };
+		B1170E7525BE0F5F009990F2 /* MeditationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1170E7425BE0F5F009990F2 /* MeditationRowView.swift */; };
+		B1170E7625BE0F5F009990F2 /* MeditationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1170E7425BE0F5F009990F2 /* MeditationRowView.swift */; };
+		B1170E7725BE0F5F009990F2 /* MeditationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1170E7425BE0F5F009990F2 /* MeditationRowView.swift */; };
 		B118728525BC7E160001820B /* MeditationFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B118728425BC7E160001820B /* MeditationFinderApp.swift */; };
-		B118728725BC7E160001820B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B118728625BC7E160001820B /* ContentView.swift */; };
 		B118728925BC7E1C0001820B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B118728825BC7E1C0001820B /* Assets.xcassets */; };
 		B118728C25BC7E1C0001820B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B118728B25BC7E1C0001820B /* Preview Assets.xcassets */; };
-		B118729725BC7E1D0001820B /* MeditationFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B118729625BC7E1D0001820B /* MeditationFinderTests.swift */; };
-		B11872A225BC7E1D0001820B /* MeditationFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11872A125BC7E1D0001820B /* MeditationFinderUITests.swift */; };
+		B11872C725BC80AA0001820B /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11872C625BC80AA0001820B /* APIClient.swift */; };
+		B11872D425BC81200001820B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11872D325BC81200001820B /* Constants.swift */; };
+		B11872D525BC81200001820B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11872D325BC81200001820B /* Constants.swift */; };
+		B11872D625BC81200001820B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11872D325BC81200001820B /* Constants.swift */; };
+		B11872DE25BC88990001820B /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11872DD25BC88980001820B /* DataModels.swift */; };
+		B11872DF25BC88990001820B /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11872DD25BC88980001820B /* DataModels.swift */; };
+		B11872E025BC88990001820B /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11872DD25BC88980001820B /* DataModels.swift */; };
+		B11872E825BCA19A0001820B /* DisplayTopicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11872E725BCA19A0001820B /* DisplayTopicListView.swift */; };
+		B11872E925BCA19A0001820B /* DisplayTopicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11872E725BCA19A0001820B /* DisplayTopicListView.swift */; };
+		B11872EA25BCA19A0001820B /* DisplayTopicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11872E725BCA19A0001820B /* DisplayTopicListView.swift */; };
+		B11872EF25BCAA680001820B /* DisplayTopicRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11872EE25BCAA680001820B /* DisplayTopicRow.swift */; };
+		B11872F025BCAA680001820B /* DisplayTopicRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11872EE25BCAA680001820B /* DisplayTopicRow.swift */; };
+		B11872F125BCAA680001820B /* DisplayTopicRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11872EE25BCAA680001820B /* DisplayTopicRow.swift */; };
+		B11872F625BCB8E20001820B /* UIColor+FromHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11872F525BCB8E20001820B /* UIColor+FromHex.swift */; };
+		B11872F725BCB8E20001820B /* UIColor+FromHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11872F525BCB8E20001820B /* UIColor+FromHex.swift */; };
+		B11872F825BCB8E30001820B /* UIColor+FromHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11872F525BCB8E20001820B /* UIColor+FromHex.swift */; };
+		B1FACB8F25BE2A0300F21C81 /* MeditationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FACB8E25BE2A0300F21C81 /* MeditationsManager.swift */; };
+		B1FACB9025BE2A0300F21C81 /* MeditationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FACB8E25BE2A0300F21C81 /* MeditationsManager.swift */; };
+		B1FACB9125BE2A0300F21C81 /* MeditationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FACB8E25BE2A0300F21C81 /* MeditationsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,18 +64,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B1170E4C25BD2179009990F2 /* TopicsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsManager.swift; sourceTree = "<group>"; };
+		B1170E5625BDF129009990F2 /* DisplayDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDataController.swift; sourceTree = "<group>"; };
+		B1170E6625BDF2E5009990F2 /* TopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicView.swift; sourceTree = "<group>"; };
+		B1170E6D25BE0D30009990F2 /* SubtopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtopicView.swift; sourceTree = "<group>"; };
+		B1170E7425BE0F5F009990F2 /* MeditationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationRowView.swift; sourceTree = "<group>"; };
 		B118728125BC7E160001820B /* MeditationFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeditationFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B118728425BC7E160001820B /* MeditationFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationFinderApp.swift; sourceTree = "<group>"; };
-		B118728625BC7E160001820B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B118728825BC7E1C0001820B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B118728B25BC7E1C0001820B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B118728D25BC7E1C0001820B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B118729225BC7E1D0001820B /* MeditationFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeditationFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B118729625BC7E1D0001820B /* MeditationFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationFinderTests.swift; sourceTree = "<group>"; };
-		B118729825BC7E1D0001820B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B118729D25BC7E1D0001820B /* MeditationFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeditationFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B11872A125BC7E1D0001820B /* MeditationFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationFinderUITests.swift; sourceTree = "<group>"; };
-		B11872A325BC7E1D0001820B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B11872C625BC80AA0001820B /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		B11872D325BC81200001820B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B11872DD25BC88980001820B /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		B11872E725BCA19A0001820B /* DisplayTopicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTopicListView.swift; sourceTree = "<group>"; };
+		B11872EE25BCAA680001820B /* DisplayTopicRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTopicRow.swift; sourceTree = "<group>"; };
+		B11872F525BCB8E20001820B /* UIColor+FromHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+FromHex.swift"; sourceTree = "<group>"; };
+		B1FACB8E25BE2A0300F21C81 /* MeditationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				B118728325BC7E160001820B /* MeditationFinder */,
-				B118729525BC7E1D0001820B /* MeditationFinderTests */,
-				B11872A025BC7E1D0001820B /* MeditationFinderUITests */,
 				B118728225BC7E160001820B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,7 +132,14 @@
 			isa = PBXGroup;
 			children = (
 				B118728425BC7E160001820B /* MeditationFinderApp.swift */,
-				B118728625BC7E160001820B /* ContentView.swift */,
+				B11872C625BC80AA0001820B /* APIClient.swift */,
+				B11872D325BC81200001820B /* Constants.swift */,
+				B1170E5625BDF129009990F2 /* DisplayDataController.swift */,
+				B11872DD25BC88980001820B /* DataModels.swift */,
+				B1FACB8E25BE2A0300F21C81 /* MeditationsManager.swift */,
+				B1170E4C25BD2179009990F2 /* TopicsManager.swift */,
+				B11872B525BC7EB30001820B /* Views */,
+				B1FACB9825BE40F100F21C81 /* Utils */,
 				B118728825BC7E1C0001820B /* Assets.xcassets */,
 				B118728D25BC7E1C0001820B /* Info.plist */,
 				B118728A25BC7E1C0001820B /* Preview Content */,
@@ -112,22 +155,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B118729525BC7E1D0001820B /* MeditationFinderTests */ = {
+		B11872B525BC7EB30001820B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B118729625BC7E1D0001820B /* MeditationFinderTests.swift */,
-				B118729825BC7E1D0001820B /* Info.plist */,
+				B11872E725BCA19A0001820B /* DisplayTopicListView.swift */,
+				B11872EE25BCAA680001820B /* DisplayTopicRow.swift */,
+				B1170E6625BDF2E5009990F2 /* TopicView.swift */,
+				B1170E6D25BE0D30009990F2 /* SubtopicView.swift */,
+				B1170E7425BE0F5F009990F2 /* MeditationRowView.swift */,
 			);
-			path = MeditationFinderTests;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		B11872A025BC7E1D0001820B /* MeditationFinderUITests */ = {
+		B1FACB9825BE40F100F21C81 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				B11872A125BC7E1D0001820B /* MeditationFinderUITests.swift */,
-				B11872A325BC7E1D0001820B /* Info.plist */,
+				B11872F525BCB8E20001820B /* UIColor+FromHex.swift */,
 			);
-			path = MeditationFinderUITests;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +304,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B118728725BC7E160001820B /* ContentView.swift in Sources */,
+				B11872E825BCA19A0001820B /* DisplayTopicListView.swift in Sources */,
+				B1170E6E25BE0D30009990F2 /* SubtopicView.swift in Sources */,
+				B1170E4D25BD2179009990F2 /* TopicsManager.swift in Sources */,
+				B11872F625BCB8E20001820B /* UIColor+FromHex.swift in Sources */,
+				B1170E6725BDF2E5009990F2 /* TopicView.swift in Sources */,
+				B11872EF25BCAA680001820B /* DisplayTopicRow.swift in Sources */,
 				B118728525BC7E160001820B /* MeditationFinderApp.swift in Sources */,
+				B1170E5725BDF129009990F2 /* DisplayDataController.swift in Sources */,
+				B1FACB8F25BE2A0300F21C81 /* MeditationsManager.swift in Sources */,
+				B11872DE25BC88990001820B /* DataModels.swift in Sources */,
+				B11872C725BC80AA0001820B /* APIClient.swift in Sources */,
+				B1170E7525BE0F5F009990F2 /* MeditationRowView.swift in Sources */,
+				B11872D425BC81200001820B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +324,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B118729725BC7E1D0001820B /* MeditationFinderTests.swift in Sources */,
+				B11872F725BCB8E20001820B /* UIColor+FromHex.swift in Sources */,
+				B1170E6F25BE0D30009990F2 /* SubtopicView.swift in Sources */,
+				B1170E7625BE0F5F009990F2 /* MeditationRowView.swift in Sources */,
+				B11872DF25BC88990001820B /* DataModels.swift in Sources */,
+				B1170E4E25BD2179009990F2 /* TopicsManager.swift in Sources */,
+				B1FACB9025BE2A0300F21C81 /* MeditationsManager.swift in Sources */,
+				B1170E6825BDF2E5009990F2 /* TopicView.swift in Sources */,
+				B11872F025BCAA680001820B /* DisplayTopicRow.swift in Sources */,
+				B11872E925BCA19A0001820B /* DisplayTopicListView.swift in Sources */,
+				B11872D525BC81200001820B /* Constants.swift in Sources */,
+				B1170E5825BDF129009990F2 /* DisplayDataController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +342,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B11872A225BC7E1D0001820B /* MeditationFinderUITests.swift in Sources */,
+				B11872F825BCB8E30001820B /* UIColor+FromHex.swift in Sources */,
+				B1170E7025BE0D30009990F2 /* SubtopicView.swift in Sources */,
+				B1170E7725BE0F5F009990F2 /* MeditationRowView.swift in Sources */,
+				B11872E025BC88990001820B /* DataModels.swift in Sources */,
+				B1170E4F25BD2179009990F2 /* TopicsManager.swift in Sources */,
+				B1FACB9125BE2A0300F21C81 /* MeditationsManager.swift in Sources */,
+				B1170E6925BDF2E5009990F2 /* TopicView.swift in Sources */,
+				B11872F125BCAA680001820B /* DisplayTopicRow.swift in Sources */,
+				B11872EA25BCA19A0001820B /* DisplayTopicListView.swift in Sources */,
+				B11872D625BC81200001820B /* Constants.swift in Sources */,
+				B1170E5925BDF129009990F2 /* DisplayDataController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +506,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jessmelanson.MeditationFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,7 +528,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jessmelanson.MeditationFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
